@@ -200,5 +200,7 @@ jobs:
           TENCENT_REGION: ${{ secrets.SCF_REGION }}
           TENCENT_FUNCTION_NAME: ${{ secrets.TENCENT_FUNCTION_NAME }}
         
+        
+
       - name: "部署失败通知"
         run: node action.js
